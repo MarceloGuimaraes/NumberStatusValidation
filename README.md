@@ -1,7 +1,6 @@
 ## Joking with python 
 
-# O projeto:
-Tem como objetivo ler um arquivo CSV contento terminais e realizar a validação em block em um Api retornar o status (Valido/Inválido).
+Este sistema tem como objetivo realizar a validação de status de terminais a partir de um aquivo CSV onde é realizado a validação via Api, gerando dois arquivos de saída contendo o status dos terminais válidos e inválidos.
 
 **Suportada versão 3 de Python:** 
 
