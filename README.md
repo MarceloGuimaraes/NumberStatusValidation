@@ -17,12 +17,13 @@ pip install argparse
 * --numbers_per_request NUMBERS_PER_REQUEST, -b NUMBERS_PER_REQUEST (Total numbers per request validation)
 * --unified_result UNIFIED_RESULT, -u UNIFIED_RESULT (Usage ONLY for unified result (skeep status validation))
 
-```help:
+Help:
+```
 py main.py -h
 ```
-
-```Usage:
-py main.py -i /c/data/fileinput.csv -w /c/data/fileOutput.csv -b 100
+Usage:
+```
+py main.py -i /home/fileinput.csv  -b 100
 ```
 
 **Config.json:**
