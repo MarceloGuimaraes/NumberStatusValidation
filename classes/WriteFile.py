@@ -22,10 +22,10 @@ if __name__ == '__main__':
     filename = 'C:/DADOS/Test_File.csv'
     w = WriteFile(filename)
     lst = []
-    lst.append("35987221451;invalid")
-    lst.append("51984771376;valid")
-    lst.append("51984055999;invalid")
-    lst.append("32988890822;valid")
+    lst.append("11111111111;invalid")
+    lst.append("22222222222;valid")
+    lst.append("33333333333;invalid")
+    lst.append("44444444444;valid")
    
     for each_Value in lst:
         w.writer(each_Value)

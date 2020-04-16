@@ -1,6 +1,6 @@
-## Joking with python 
+## 🐍 - Joking with python - Terminal Number Validation
 
-Este sistema tem como objetivo realizar a validação de status de terminais a partir de um aquivo CSV onde é realizado a validação via Api, gerando dois arquivos de saída contendo o status dos terminais válidos e inválidos.
+Este sistema tem como objetivo realizar a validação do status de terminais a partir de um aquivo CSV onde a validação é realizada via Post Request em uma API, gerando dois arquivos CSV de saída contendo o status dos terminais válidos e inválidos.
 
 **Suportada versão 3 de Python:** 
 
@@ -13,12 +13,16 @@ pip install argparse
 
 **Parametros de execução:** 
 
-* -- file_reader, -f file_reader (CSV file input path)
-* -- file_writer, -w file_writer (CSV file output path)
-* -- block_size, -b block_size (Block size number to terminals validation)
+* --csv_input CSV_INPUT, -i CSV_INPUT (CSV file input)
+* --numbers_per_request NUMBERS_PER_REQUEST, -b NUMBERS_PER_REQUEST (Total numbers per request validation)
+* --unified_result UNIFIED_RESULT, -u UNIFIED_RESULT (Usage ONLY for unified result (skeep status validation))
+
+```help:
+py main.py -h
+```
 
 ```Usage:
-py main.py -f /c/data/fileinput.csv -w /c/data/fileOutput.csv -b 100
+py main.py -i /c/data/fileinput.csv -w /c/data/fileOutput.csv -b 100
 ```
 
 **Config.json:**
