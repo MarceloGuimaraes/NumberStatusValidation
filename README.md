@@ -8,14 +8,14 @@ Para instalar:
 
 ```console
 pip install pandas
-pip install argparse
+pip install requests
 ```
 
 **Parametros de execução:** 
 
 * --csv_input CSV_INPUT, -i CSV_INPUT (CSV file input)
 * --numbers_per_request NUMBERS_PER_REQUEST, -b NUMBERS_PER_REQUEST (Total numbers per request validation)
-* --unified_result UNIFIED_RESULT, -u UNIFIED_RESULT (Usage ONLY for unified result (skeep status validation))
+* --unified_result UNIFIED_RESULT, -u UNIFIED_RESULT (**OPTIONAL:** Usage ONLY for unified result (skeep number status validation))
 
 Help:
 ```

@@ -42,7 +42,7 @@ def main():
 def run(arguments):
 
     csv_rows=Util.get_row_count(arguments.csv_input)
-    print("CSV file input: \n- Path: {} \n- Count of lines: {}".format(arguments.csv_input,csv_rows))
+    print("CSV file input: \n- Path: {} \n- Count of lines: {}".format(Util.get_relative_path(arguments.csv_input),csv_rows))
     swap_file = arguments.csv_input.replace(CONS_CSV,SUFFIX_RESPONSE)
 
     print("Count of requests: ~{}".format(Util.round_up(csv_rows/arguments.numbers_per_request)))
